@@ -1,0 +1,302 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+header{
+    height: 800px;
+    width: 100%;
+    position: relative;
+}
+
+header .outter-image{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+header .outter-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+   
+    
+}
+
+header .outter-div{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+header .nav{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+header .nav ul{
+    display: flex;
+    margin-right: 8%;
+    
+    
+}
+
+header .nav ul li{
+    margin-right: 27px;
+    margin-left: 27px;
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+   
+}
+
+header .main-div{
+    height: 90%;
+    width: 100%;
+    display: flex;
+}
+
+header .main-info-container{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column ;
+}
+
+header .main-inner-title{
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+} 
+
+header .main-inner-button{
+    flex-grow: 1.2 ;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+}
+
+header .main-inner-title h1{
+    font-size: 85px;
+    color: #914F47;
+    font-family: 'Playfair', serif;
+    margin-bottom: 20px;
+
+    
+}
+
+header .main-inner-button button{
+    height: 50px;
+    width: 120px;
+    border-radius: 20px;
+    font-family: 'Playfair', serif;
+    font-size: 15px;
+    border: #914F47 solid 1px;
+    background-color: #e5cec5;
+    color: #914F47;
+    font-weight: bolder;
+    margin-left: 22%;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+             -6px -6px 12px #ffffff;
+
+}
+
+header .main-inner-button  button:hover {
+    border: 1px solid white;
+  }
+
+
+header .main-image-container{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+header .main-inner-image-container{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+header .main-inner-parfume{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+      
+}
+
+header .main-inner-parfume img{
+    height: 90%;
+    width: 100%;
+    object-fit: scale-down;
+    
+}
+
+header .main-inner-aqua {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    
+}
+
+header .main-inner-aqua img{
+    height: 100%;
+    width: 100%;
+    object-fit: scale-down;
+    
+}
+ 
+/* ----------------------------------------------MAIN BAŞLANGIÇÇ-----------------------------------*/
+
+main{
+    height: 1500px;
+    width: 100%;
+}
+
+main .product-show{
+    height: 800px;
+    width: 100%; 
+    display: flex;
+
+    flex-direction: column;
+    background-color: #ffffff;
+    
+}
+main .product-show-title{
+    height: 250px;
+    width: 100%;
+    color: #227355;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 45px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+main .product-container{
+    margin-left: 100px;
+    margin-right: 100px;
+    flex-grow: 7;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+main .product-card{
+    height:60%;
+    width:20%; 
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: #ffffff;
+    transition: transform 0.5s ease;
+  box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
+}
+
+main .product-card:hover{
+    transform: scale(1.3 , 1.3);
+    
+}
+
+main .product-image{
+    margin-bottom: 10px;
+    height:100%;
+    width:100%;
+    flex-grow: 7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-position: relative;
+    border-radius: 20px;
+}
+main .product-image img{
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: scale-down;
+    object-position: absolute;
+
+    
+}
+
+main .product-name{
+    flex-grow: 1;
+    margin-left: 30px;
+    color: #227355;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+}
+main .product-cost{
+    margin-bottom: 10px;
+    flex-grow: 1;
+    margin-left: 30px;
+    color: #113d2d;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+}
+
+main .product-button-container{
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    color: #ffffff;
+    
+
+}
+main button{
+    background-color: rgb(250, 250, 250);
+    border-style: none;
+    height: 50px;
+    width: 300px;
+    color: #113d2d;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+    position: relative;
+    transition: all .3s ease-in-out;
+    z-index: 1;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    box-shadow: 6px 6px 12px #c5c5c5,
+                -6px -6px 12px #ffffff;
+}
+main button::before{
+    content: '';
+    background-color:#ffffff;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: width 700ms ease-in-out;
+    display: inline-block;
+    
+}
+main button:hover::before {
+    width: 100%;
+  }
+
