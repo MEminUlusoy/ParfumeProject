@@ -300,3 +300,251 @@ main button:hover::before {
     width: 100%;
   }
 
+
+.space{
+    height: 100px;
+    width: 100%;
+    
+}
+
+/* ------------------------------Main REklam Giriş------------------------------------ */
+
+main .advertisement-container{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FAFAFA;
+}
+
+main .advertisement-item-1{
+    height: 250px;
+    width: 40%;
+    background-color: #FFE6EB;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+main .advertisement-item-1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 40%;
+    position: absolute;
+    filter: brightness(95%);
+    
+
+    
+
+}
+
+main .advertisement-item-1 p{
+    position: absolute;
+    font-size: 35px;
+    color: black;
+    margin-left: 25%;
+    font-family: 'Rajdhani', sans-serif;
+    
+    
+
+}
+
+
+
+
+
+
+main .advertisement-item-2{
+    height: 250px;
+    width: 40%;
+    background-color: #FFE6EB;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+main .advertisement-item-2 p{
+ 
+    font-size: 35px;
+    color: black;
+    position: absolute;
+    font-family: 'Rajdhani', sans-serif;
+    margin-right: 35%;
+    
+}
+
+
+
+
+
+main .advertisement-item-2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 25%;
+    position: absolute;
+    filter: brightness(98%);
+    
+
+}
+
+
+
+/* ------------------------------Main Okyanus Giriş------------------------------------ */
+
+main .ocean-container{
+    height: 600px;
+    width: 100%;
+    
+    display: flex;
+    position: relative;
+    
+}
+
+main .ocean-background-image{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+main .ocean-background-adv{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+main .ocean-background-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+
+main .ocean-info-container{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+main .ocean-inner-info-container{
+    height: 60%;
+    width: 70%;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+main .ocean-title-container{
+    flex-grow: 3;
+    
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    
+}
+
+
+main .ocean-title-container h1{
+    font-size: 30px;
+    color: white;
+    font-family: 'Cinzel', serif;
+    margin-bottom: 15px;
+}
+
+
+
+
+main .ocean-description-container{
+    flex-grow: 1;
+ 
+}
+
+main .ocean-description-container p{
+    font-size: 25px;
+    font-family: 'Great Vibes', cursive;
+    color: white;
+}
+
+
+main .ocean-button-container{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+/* ------------------------------------
+dasdsa                */
+
+main .ocean-button-container button{
+    height: 40px;
+    width: 200px;
+    font-family: 'Cinzel', serif;;
+    background-color: black;
+    font-size: 13px ;
+    font-weight: bolder;
+    color: white;
+    box-shadow: none;
+    border-top: white solid 1px;
+    
+}
+
+
+main .ocean-button-container button:hover{
+   color:  black;
+}
+
+
+main .ocean-parfume-container{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main .ocean-inner-parfume-container{
+    position: relative;
+    height: 60%;
+    width: 60%;
+    
+    
+    
+    
+    
+    
+}
+
+@keyframes moveObject{
+   0%{transform: translate(0px,0px);}
+   50%{transform: translate(0px,-20px);}
+   100%{transform: translate(0px,0px);}
+
+}
+
+
+main .ocean-parfume-container img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    animation: moveObject 4s infinite ease-in-out;
+    
+}
+
+
+
